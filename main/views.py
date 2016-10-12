@@ -14,7 +14,7 @@ UserIdNum = [0]
 
 # *****************************用户相关*****************************
 class User(db.Model):
-    __tablename__ = 'User'
+    __tablename__ = 'user'
     # -----------------------------必要信息-------------------------
     # ID
     UserId = db.Column(db.Integer, primary_key=True)
